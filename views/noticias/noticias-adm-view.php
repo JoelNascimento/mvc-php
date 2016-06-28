@@ -20,6 +20,13 @@ $modelo->form_confirma = $modelo->apaga_noticia();
 // Remove o limite de valores da lista de notícias
 $modelo->sem_limite = true;
 ?>
+<header>
+	<?php
+		
+
+		echo "<img src='views/_images/logo-principal.png' width=150 height=150/>";
+	?>
+</header>
 
 <div class="wrap">
 

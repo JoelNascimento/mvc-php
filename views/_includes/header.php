@@ -10,7 +10,6 @@
 <!--[if !(IE 7) & !(IE 8)]><!-->
 <html lang="pt-BR">
 <!--<![endif]-->
-
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,8 +21,24 @@
 	<script src="<?php echo HOME_URI;?>/views/_js/scripts.js"></script>
 	<![endif]-->
 
-	<title><?php echo $this->title; ?></title>
+	<title><?php echo $this->title; ?></title>	
+
+
 </head>
+
 <body>
 
+
 <div class="main-page">
+<header>
+	<div class="div_imagem"> 
+	<?php		
+		echo "<img src='views/_images/logo-principal.png' width=150 height=150/>";
+	?>	
+	</div>
+	
+	<div class="titulo">
+		<h1 class="nome-site">Noticias On Line</h1>
+	</div>
+
+</header>

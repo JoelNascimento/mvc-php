@@ -2,7 +2,6 @@
 // Evita acesso direto a este arquivo
 if ( ! defined('ABSPATH')) exit; 
 ?>
-
 <div class="wrap">
 
 <?php
@@ -12,6 +11,7 @@ $modelo->posts_por_pagina = 10;
 // Lista notícias
 $lista = $modelo->listar_noticias(); 
 ?>
+
 
 <?php foreach( $lista as $noticia ):?>
 	
@@ -42,6 +42,7 @@ $lista = $modelo->listar_noticias();
 	<?php endif;  // single ?>
 	
 <?php endforeach; ?>
+
 
 <?php $modelo->paginacao();?>
 
