@@ -32,11 +32,14 @@
 <div class="main-page">
 <header>
 	<div class="div_imagem"> 
-	<?php		
-		echo "<img src='views/_images/logo-principal.png' width=150 height=150/>";
-	?>	
+		<p>
+			<img src="<?php 
+			echo HOME_URI . '/views/_images/' . 'logo-principal.png'; ?>">
+		</p>
 	</div>
 	
+
+
 	<div class="titulo">
 		<h1 class="nome-site">Noticias On Line</h1>
 	</div>
